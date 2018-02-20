@@ -1,0 +1,92 @@
+body {
+    font-family: Gilroy,-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Arial,sans-serif;
+    color: #3c3c3c;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: .2px;
+}
+.h-padding_around_medium {
+    padding: 24px;
+}
+.h-text_align_center {
+    text-align: center;
+}
+.photo {
+    height: 240px;
+    border-radius: 8px;
+}
+.h-margin_bottom_medium {
+    margin-bottom: 24px;
+}
+img {
+    border-style: none;
+}
+h1 {
+    font-size: 2em;
+    margin: .67em 0;
+}
+.h-text_size_title {
+    font-size: 20px;
+    line-height: 1.2;
+}
+.h-text_resize_jumbo {
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: .2px;
+}
+.h-margin_bottom_medium {
+    margin-bottom: 24px;
+}
+.h-text_size_headline, .h-text_size_title {
+    margin: 0 0 16px;
+    padding: 0;
+    font-weight: 700;
+    letter-spacing: .2px;
+}
+.link, .link:hover {
+    text-decoration: none;
+}
+.link {
+    color: #499df2;
+    border-bottom: 1px solid #499df2;
+    -webkit-transition: color .25s ease-out,background-color .25s ease-out,border-color .25s ease-out,-webkit-box-shadow .25s ease-out;
+    transition: color .25s ease-out,background-color .25s ease-out,border-color .25s ease-out,-webkit-box-shadow .25s ease-out;
+    transition: color .25s ease-out,background-color .25s ease-out,border-color .25s ease-out,box-shadow .25s ease-out;
+    transition: color .25s ease-out,background-color .25s ease-out,border-color .25s ease-out,box-shadow .25s ease-out,-webkit-box-shadow .25s ease-out;
+}
+.link_color_black {
+    color: #3c3c3c;
+}
+.link_underline_none, .link_underline_none:hover {
+    border-bottom: none;
+}
+a {
+    background-color: transparent;
+}
+.work {
+    display: flex;
+    justify-content: space-evenly;
+}
+.work img {
+    height: 240px;
+    width: 300px;
+    background-size: cover;
+    border-radius: 8px;
+}
+.work img:hover {
+    z-index: 2;
+    -webkit-transform: rotate(-3deg) scale(1.1);
+    -ms-transform: rotate(-3deg) scale(1.1);
+    transform: rotate(-3deg) scale(1.1);
+    -webkit-transition: -webkit-transform 0.3s ease-out 0s;
+    transition: transform 0.3s ease-out 0s;
+}
+
+@media screen and (max-width: 768px) {
+.work  {
+    flex-direction: column;
+}
+}
